@@ -8,6 +8,7 @@ angular
 
 
     .controller('AppController', ['$scope', 'FileUploader', function($scope, FileUploader) {
+        alert();
         var uploader = $scope.uploader = new FileUploader({
             url: 'upload.php'
         });
